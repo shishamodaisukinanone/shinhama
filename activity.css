@@ -1,0 +1,172 @@
+h2{
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom : 30px;
+}
+
+.activTop{
+  width: 50%;
+  margin: 30px auto 30px auto;
+}
+
+.activTop p{
+  padding-top: 10px;
+  text-align: center;
+}
+
+.youtube {
+  position: relative;
+  padding-bottom: 56.25%; /*アスペクト比 16:9の場合の縦幅*/
+  height: 0;
+  overflow: hidden;
+}
+
+.youtube iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*各活動内容 画像*/
+.contents img{
+  width :50%;
+  margin:20px auto;
+}
+
+/*生物表*/
+.biography {
+  border: solid #333 1px;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+.biography th{
+  width: 100px;
+  border: solid #333 1px;
+  border-collapse: collapse;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #f7c63f;
+}
+
+.biography td{
+  border: solid #333 1px;
+  border-collapse: collapse;
+  padding: 5px;
+  line-height: 1.5em;
+  background-color: white;
+}
+
+h3{
+  padding-bottom: 10px;
+}
+
+/* 4.地域外との交流・体験学習*/
+.activity4 h3{
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
+
+.activity4 p{
+  padding-top: 0;
+}
+
+.activity4 #space{
+  height: 70px;
+}
+
+.activity4 .blank{
+  padding-top: 20px;
+}
+
+.sm-br{
+  display: none;
+}
+
+.starjisseki a>p{
+  padding-top: 5px;
+  padding-left: 15px;
+}
+
+
+
+/* レスポンシブデザイン 開始 */
+/* タブレット用 */
+@media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+}
+
+/* スマートフォン用 */
+@media screen and (max-width: 640px) {
+  .main{
+    margin-top: 90px;
+  }
+
+  h1{
+    font-size: 20px;
+    padding-bottom: 0px;
+  }
+
+  p{
+    padding: 5px 5px;
+  }
+
+  .activTop{
+    width: 100%;
+    margin: 30px auto 30px auto;
+  }
+  
+  .activTop p{
+    padding-top: 10px;
+    text-align: left;
+  }
+  /*コンテンツ 開始*/
+  .main>div{
+    width:100%;
+  }
+
+  .contents{
+    width:100%;
+    border-radius: 0px;
+    background-color: #ffffff;
+    padding: 10px;
+  }
+
+  .contents img{
+    margin: 10px auto;
+    width: 100%;
+  }
+
+  .contents p {
+    padding:10px 5px;
+  }
+
+  #blankTop{
+    padding-top:20px;
+  }
+
+  #blankBottom{
+    padding-bottom:20px;
+    padding-right: 0px;
+  }
+
+  #youtube{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  h3{
+    padding: 40px 3px 20px 3px;
+  }
+
+  .contents a {
+    font-size: 12.8px;
+  }
+
+  /*画像サイズ*/
+
+
+
+}

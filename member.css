@@ -1,0 +1,149 @@
+/*テーブル案1*/
+
+#member .mainTable{
+  width:70%;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+#member table{
+  margin:50px auto;
+  border: solid #333 1px;
+  border-collapse: collapse;
+}
+
+#member table th{
+  border: solid #333 1px;
+  border-collapse: collapse;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#member table td{
+  border: solid #333 1px;
+  border-collapse: collapse;
+  padding: 5px;
+  line-height: 1.5em;
+}
+
+.price{
+  text-align: center;
+}
+
+/* テーブル案2*/
+
+.mainTable table{
+  margin:50px auto;
+  border: solid #c67543 1px;
+  border-collapse: collapse;
+}
+
+#mainTable table{
+  display: none;
+}
+
+.mainTable table th{
+  border: solid #c67543 1px;
+  background-color: #f7d7c3;
+  border-collapse: collapse;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.mainTable table td{
+  border: solid #c67543 1px;
+  background-color: white;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+/*年間予定 開始*/
+h3{
+  border-bottom: solid #444444 1px;
+  width: 98%;
+}
+
+.scheduleText{
+  margin:15px 5px 30px;
+}
+
+#another{
+  margin-top: 20px;
+}
+/*年間予定 終了*/
+/*申し込み方法 開始*/
+.requestInfo{
+  border: solid #444444 1px;
+  padding: 10px 10px;
+  margin:15px 0px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+
+.smBr{
+  display: none;
+}
+
+/* レスポンシブデザイン 開始 */
+/* タブレット用 */
+@media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+}
+
+/* スマートフォン用 */
+@media screen and (max-width: 640px) {
+  
+  .main{
+    margin-top: 80px;
+  }
+
+  .main>div{
+    width: 100%;
+    border-radius: 0%;
+    background-color: #fae7b5;
+    padding: 10px 5px;
+  }
+
+  h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .mainText p{
+    padding-top: 20px;
+  }
+
+  .mainText{
+    margin-bottom: 30px;
+  }
+
+  h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  /* 会員募集ページ テーブル*/
+  #member .mainTable{
+    width: 95%;
+    margin-right:auto;
+    margin-left:auto;
+  }
+  
+  #member .mainTable {
+    font-size: 11px;
+    margin-bottom: 30px;
+  }
+
+  /* 会員募集ページ テーブル(案2)*/
+  #member #mainTable table{
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 13px;
+    display: none;
+  }
+
+  .smBr{
+    display: inline;
+  }
+}

@@ -1,0 +1,175 @@
+/* トップ画像*/
+#topImg img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 0 100%;
+  margin-top:20px
+}
+
+#info{
+  background-size: 300px;
+  /*background-size:cover;*/
+  background-repeat: repeat-x;
+  /*width:100%;*/
+}
+
+.sectionImg{
+  display: none;
+}
+
+
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+.mapImg{
+  width:60%;
+  display: block;
+}
+
+.mainText img{
+  margin: 30px auto 50px auto;
+}
+
+/* 中間メニュー 開始 */
+.menu-middle{
+  width: 80%;
+  display: flex;
+  justify-content: space-around;  
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.menu-contents img{
+  width: 300px;
+}
+
+.menu-contents img:hover{
+  transform:scale(1.2,1.2);
+}
+
+.menu-contents span{
+  display: block;
+  position: relative;
+  padding: 0.5em;
+  background: var(--sub-color);
+  color: white;
+  font-size: large;
+}
+
+.menu-contents span::before {
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 0;
+  border: none;
+  border-bottom: solid 15px transparent;
+  border-right: solid 20px #d69d00;
+}
+
+.smMiddleMenu{
+  display: none;
+}
+/* 中間メニュー 終了 */
+
+#info .news a{
+  display:inline-block;
+}
+
+
+/* レスポンシブデザイン 開始 */
+/* タブレット用 */
+@media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+}
+
+/* スマートフォン用 */
+@media screen and (max-width: 640px) {
+
+  /*top画像*/
+  #topImg img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: 0 100%;
+    margin-top:60px
+  }
+
+  /*団体について 開始*/
+
+  .about img{
+    margin-top: 30px;
+  }
+
+  .about h2{
+    margin-bottom: 0px;
+  }
+
+  .mapImg{
+    width: 100%;
+    display: block;
+  }
+  /*団体について 終了*/
+
+  /*最新情報 開始*/
+  .info{
+    padding: 25px 5px;
+  }
+  /*最新情報 終了*/
+
+  /*中間メニュー*/
+  .menu-middle h4{
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .smMiddleMenu{
+    display: block;
+  }
+  .menu-middle{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .menu-contents{
+    width:100%;
+    margin-bottom: 30px;
+    background-color: #fde7a8;
+  }
+
+  .menu-contents span{
+    display: none;
+  }
+
+  .menu-contents .btn{
+    text-decoration: none;
+    background-color: #333;
+    border-color: #333;
+    color: whitesmoke;
+    padding: 5px 20px;
+    width: 150px;
+    margin: 10px auto;
+    font-size: 13px;
+  }
+
+  /*中間メニュー 終了*/
+
+  /*お問合せ 開始*/
+  .contact p{
+    padding-top: 5px;
+  }
+
+  .contact{
+    padding: 25px 5px;
+  }
+
+
+  
+
+
+
+}

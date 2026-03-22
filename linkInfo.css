@@ -1,0 +1,51 @@
+.linkTop{
+  width: 80%;
+  margin:20px auto;
+}
+
+.linkTop p{
+  padding-top: 0;
+  text-align: center;
+}
+
+/* レスポンシブデザイン 開始 */
+/* タブレット用 */
+@media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+}
+
+/* スマートフォン用 */
+@media screen and (max-width: 640px) {
+  .main{
+    margin-top: 90px;
+  }
+
+  .linkTop{
+    width: 95%;
+  }
+
+  .linkTop p{
+    text-align: left;
+  }
+  .main>div{
+    width: 100%;
+  }
+  .contents{
+    width: 100%;
+    padding: 30px 5px;
+    border-radius: 0%;
+  }
+
+  h2{
+    text-align: left;
+    margin: 15px 0;
+  }
+
+  p.title{
+    padding-top: 25px;
+  }
+
+  p.url{
+    padding-top: 0px;
+  }
+}

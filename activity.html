@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="activity.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>カントリーパーク新浜</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="image/logo_top.png" alt="カントリーパーク新浜" title="カントリーパーク新浜"  height="100px">
+      </div>
+      <div id="hamburger">
+        <div class="icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <nav class="sm">
+        <ul>
+          <li><a href="index.html"><p>ホーム</p></a></li>
+          <li><a href="activity.html"><p>活動内容</p></a></li>
+          <li><a href="member.html"><p>会員募集</p></a></li>
+          <li><a href="linkInfo.html"><p>リンクページ</p></a></li>
+        </ul>
+      </nav>
+      <nav class="pc">
+        <ul>
+          <li><a href="index.html"><p>ホーム</p></a></li>
+          <li><a href="activity.html"><p>活動内容</p></a></li>
+          <li><a href="member.html"><p>会員募集</p></a></li>
+          <li><a href="linkInfo.html"><p>リンクページ</p></a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class = "main">
+      <div class = 'activity'>
+        <h1>活動内容</h1>
+        <div class="activTop">
+          <p>カントリーパーク新浜の主な取り組みは以下の４つです。</p>
+          <p>四季を通じてさまざまな活動を地域の関連団体とも連携して実施してきました。</p>
+          <p>当団体の1年間の活動概要はこちらの動画をご覧ください↓↓</p>
+          <div class="youtube">
+            <!-- 20240407 YOUTBE動画変更-->
+            <!--
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/V_ptAqxxFrM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rBcFGeecCkc?si=ZcSE7Z2pDxPLRizF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>        
+        <div class = "contents activity1">
+          <h2>1.農薬・化学肥料不使用の米作り</h2>
+          <p>除草剤・駆虫薬などの農薬や化学肥料を使わずに、深水栽培などの工夫をして米作りをしています。</p>
+          <p>4月：育苗、5月初旬：しろかき、5月中~下旬：ササシグレ・ミヤココガネ（もち米）の田植え、6-7月：草取り、10月上～中旬：稲刈り、11月下旬：米ぬか散布・耕運というのが1年間のおよその米作りスケジュールです。</p>
+          <p>今はあまり見られなくなったミズアオイなどの貴重な生物も見られます。手作業でやる仕事が多く大変なので、ぜひご協力ください!!</p>
+          <img src = "image/activity2.png" alt = "活動内容1" title = "活動内容1" width="90%">
+        </div>
+        <div class = "contents activity2">
+          <h2>2.安心なお米の販売</h2>
+          <p>「みやぎの環境にやさしい農産物認証」をうけています。10月中旬より販売しております。当団体の会員へ優先して提供しており、販売できる量には限りがありますので予めご了承ください。予約も受けつけております。</p>
+          <p id="blankTop">栽培品種：　ササシグレ</p>
+          <p>【ササシグレについて】</p>
+          <p>ササシグレは、昭和30年代までは東北地方の多くの地域で栽培されていました。その後、その子供にあたるササニシキにその座を譲り、昭和40年代にはほとんどの田んぼから姿を消しました。現在は、ごく一部の限られた生産者だけがササシグレを大切に栽培しており、食通を中心に熱烈な支持され「幻の高級米」と言われています。</p>
+          <img src = "image/ササシグレ.jpg" width="90%">
+        </div>
+        <div class = "contents activity3">
+          <h2>3.海岸地域の自然保護</h2>
+          <p>震災後、新浜地区は仙台市で一番海に近い集落になりました。震災にも耐え、残された海辺ならではの自然の回復を後押しできるよう、外部の専門家と連携して情報を得ながら、在来種の育成・繁殖など、ビオトープに避難所的な機能を持たせるよう、努力しています。</p>
+          <img src = "image/activity3.png" alt = "活動内容3" title = "活動内容3" width="90%">
+          <h3>これまでの調査や観察会の中で、<br class="sm-br">ビオトープや田んぼ周辺で見られた生物</h3>
+          <table class="biography">
+            <tr>
+              <th>草木類</th>
+              <td>ホソバオモダカ、ミズアオイ、コガマ、ヒメガマ、ヨシ、セリ、コナギ、クロマツ、ササシグレ（白米）、ミヤココガネ（もち米）、ハマヒルガオ、センダイハギ、ハマナス、ハマボウフウ等</td>
+            </tr>
+            <tr>
+              <th>水生生物</th>
+              <td>ミナミメダカ、ヒメゲンゴロウ、ミズカマキリ、ドジョウ、ヌマエビ、アメリカザリガニ等</td>
+            </tr>
+            <tr>
+              <th>両性類</th>
+              <td>ニホンアマガエル、ニホンアカガエル、トウキョウダルマガエル等</td>
+            </tr>
+            <tr>
+              <th>昆虫</th>
+              <td>ヒメアメンボ、アジアイトトンボ、シオカラトンボ、アキアカネ、コオロギ、モンシロチョウ、キタキチョウ、オンブバッタ、カマキリ、アシナガバチ等</td>
+            </tr>
+            <tr>
+              <th>鳥類</th>
+              <td>コサギ、ダイサギ、カルガモ、ミサゴ等</td>
+            </tr>
+            <tr>
+              <th>は虫類</th>
+              <td>アオダイショウ等</td>
+            </tr>
+          </table>
+          <p>R3年度に実施した「生物相と生息・生育環境 に関する基礎調査」報告（概要版）はこちら<br>↓↓</p>
+          <a href="https://twitter.com/cntryprk2021/status/1531558315217498112?t=cHBADpNsho4MMG5JdPQ3BA&s=19" target="_blank" rel="noopener noreferrer"><p>https://twitter.com/cntryprk2021/status/1531558315217498112?t=cHBADpNsho4MMG5JdPQ3BA&s=19</p></a>
+          <p>より詳しい情報をご希望の方は当団体までご連絡ください。</p>
+        </div>
+        <div class = "contents activity4">
+          <h2>4.地域外との交流・体験学習</h2>
+          <p>田んぼでは、5月：田植え体験、7下旬～8月上旬：生き物観察会、10月中旬：稲刈り体験、10月下旬～11月：収穫祭などを行っています。また、また、３つのビオトープとその東側に広がる被災した海辺をつなぐ、観察・保全活動にも参加いただけます。
+            <br>伝統的な米作り、震災からよみがえりつつある多様な生物、海辺ならではの暮らしにふれてみませんか？</p>
+          <p class="blank"></p>
+          <a href="https://twitter.com/cntryprk2021/status/1771012034160902554?s=46&t=80gTvO2x454gtBu1fHrBhw" target="_blank" rel="noopener noreferrer"><p>当団体が行う体験学習</p></a>
+          <h3>①農薬不使用の田んぼが育む水辺の生き物たち</h3>
+          <p>・宮城野区新浜にある田んぼビオトープで、作業を体験し、小さな生物とふれあいます。
+            <br>・地域の農家や大学の生物学者の話を聞きながら、米作りを体験しよう！
+            <br>・5月中旬～6月初旬 「田植え・雑草取り」と8月10月頃「稲刈り」「生き物観察」の３コースがあります。
+          </p>
+          <p>キーワード：農薬不使用の米作り、東日本大震災で被災した生き物たち、田んぼビオトープ</p>
+          <h3>②冬に仙台平野に飛来する鳥の観察</h3>
+          <p>・冬の田んぼや貞山運河にはハクチョウ・カモ類など渡り鳥たちが飛来します。
+            <br>・新浜周辺の水辺をめぐり、野鳥の専門家や大学の研究者の話を聞きながら、野鳥を観察してみよう！
+            <br>・広い視野で生態系や土地利用の季節変化を認識し、鳥類保全のためにとるべきアクションについて考えます。
+          </p>
+          <p>キーワード：冬水田んぼ、冬の渡り鳥、生態系、土地利用、仙台平野</p>
+          <h3>③地域苗による「ふるさとの海辺」復興</h3>
+          <p>・砂地・水辺ビオトープでは、復興工事予定地に生存していた植物を一時的に保護し、地域苗を育てています。
+            <br>・専門家の話を聞きながら、砂浜・水辺・海岸林の植物を観察してみよう！
+            <br>・復興すべき「ふるさとの海岸林」について具体的なイメージをもち、自然再生を臨床的に支援します。
+          </p>
+          <p>キーワード：地域苗、ふるさとの海辺、自然再生力、臨床的支援</p>
+          <div id = "space"></div>
+          <p>団体様には個別にイベントの対応をします。
+            <br>ご希望のプログラムがある団体の方は、<br>countrypark.shinhama2021@gmail.com <br>にお問い合わせください。
+          </p>
+          <p>※各催しには定員があり、原則、会員が優先となります。
+            <br>※新型コロナウイルス感染症の状況に応じてイベントやプログラムを中止する場合があります。
+          </p>
+          <img src = "image/activity4.png" alt = "活動内容4" title = "活動内容4" width="90%">
+          <p>生き物観察会2021のようすはこちら↓↓</p>
+          <div class="youtube">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/C_ISFOtM4Rs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class = "contents starjisseki">
+          <h3>★これまでの受賞歴と採択実績</h3>
+          <p>・日本自然保護大賞2022/日本自然保護協会：選考委員特別賞「東日本大震災の津波を転機とした仙台沿岸域の田圃環境復元の試み（宮城県）」↓↓</p>
+          <a href="https://www.nacsj.or.jp/award/result_2022.php#anchor_cat05" target="_blank" rel="noopener noreferrer"><p>https://www.nacsj.or.jp/award/result_2022.php#anchor_cat05</p></a>
+          <p>・生物多様性保全推進事業/仙台市環境局「仙台メダカプロジェクト」2021-2022</p>
+          <p>・地球環境基金「カントリーパーク新浜の環境学習、ESDによる地域包括型の自然保全と復興推進」2021-2023</p>
+          <p>・2021年度カントリーパーク新浜「生物相と生息・生育環境に関する基礎調査」報告（概要版）</p>
+          <a href="https://twitter.com/cntryprk2021/status/1531558315217498112?t=q52p4k_RZIeNXlY8w8nUtA&s=19" target="_blank" rel="noopener noreferrer"><p>https://twitter.com/cntryprk2021/status/1531558315217498112?t=q52p4k_RZIeNXlY8w8nUtA&s=19</p></a>
+          <p>・2020年度世界の人びとのためのJICA基金活用事業（チャレンジ枠）</p>
+          <a href="https://www.jica.go.jp/Resource/partner/private/kifu/ku57pq00002o2qok-att/09_2020_07.pdf" target="_blank" rel="noopener noreferrer"><p>「マダガスカル東部沿岸域農村における地域魅力教材づくり」終了時活動報告書（PDF/832KB）</p></a>
+          <p>・2022年度世界の人びとのためのJICA基金活用事業（通常枠）</p>
+          <a href="https://www.jica.go.jp/Resource/partner/private/kifu/ed8u1k0000008fr2-att/09_2022_02.pdf" target="_blank" rel="noopener noreferrer"><p>「マダガスカル東部沿岸農漁村における住民による魅力ある地域資源の持続可能な利活用の促進」終了時活動報告書（PDF/1.68MB）</p></a>
+        </div>
+      </div>
+    </div>
+    <footer id="footer">
+      <section class="primary">
+        <div class="logo">
+          <a href=""><img src="image/logo_top.png" alt="カントリーパーク新浜" title="カントリーパーク新浜"></a>
+        </div>
+      </section>
+      <section class="secondary">
+        <p class="copyright">Copyright ©カントリーパーク新浜 All rights reserved.</p>
+      </section>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="activ.js"></script>
+  </body>
+</html>
